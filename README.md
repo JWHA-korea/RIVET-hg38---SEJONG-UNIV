@@ -7,7 +7,6 @@ Purpose: Gene prioritization pipeline (module) prepared for the Sejong Universit
 
 ## What is this?
 - You pass an HPO-registered disease name; the tool resolves its HPO terms / converts them into gene-level weights / combines with your existing gene scores / produces a final, disease-specific priority table.
-- Thresholding uses both BestF1 and Precision@95 to derive flags and T1/T2 tiers.
 - Report schema (final TSV):  
   `gene, y_prob_max, p95_flag, bestF1_flag, rank, clinvar_plp_flag, tier, score, disease`
 
