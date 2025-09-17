@@ -1,0 +1,10 @@
+gene_scores: ./data/prioritized.gene.with_thresholds.tsv
+thresholds:  ./data/thresholds/thresholds.json
+hpo_obo:        ./data/hpo/hp.obo
+hpo_genes:      ./data/hpo/genes_to_phenotype.txt
+phenotype_hpoa: ./data/hpo/phenotype.hpoa
+
+extras:
+  string_net:   ./data/extras/gene_network.tsv
+  path_scores:  ./data/extras/path_scores.tsv
+  literature:   ./data/extras/literature.tsv.gz
