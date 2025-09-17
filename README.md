@@ -1,6 +1,7 @@
 # RIVET Gene Study (HPO mapping)
 
-Author: JIWOOK HA  
+Author: JIWOOK HA 
+mail : wldnr0728@naver.com
 Affiliation: Sejong University, Department of Smart Bio-Industry Convergence  
 Purpose: Gene prioritization pipeline (module) prepared for the Sejong University Academic Festival.
 
@@ -24,7 +25,7 @@ rivet-gs --disease "<HPO name>" --outdir runs \
          [--top N] [--min-score X] [--threads K]
 The disease name must exactly match column 2 (disease_name) in data/hpo/phenotype.hpoa.
 
-How to find the exact HPO disease name�
+How to find the exact HPO disease name¬
 grep -P "^[^#]" data/hpo/phenotype.hpoa | grep -i "<keyword>" | cut -f2 | sort -u | head -50
 Data bundle & License
 This repo bundles the original HPO files (hp.obo, genes_to_phenotype.txt, phenotype.hpoa; 2023-10-09).
@@ -41,4 +42,4 @@ JIWOOK HA. RIVET Gene Study (HPO mapping)
 Sejong Univ. Academic Festival Edition, 2025.
 
 License
-MIT © JIWOOK HA
+MIT Â© JIWOOK HA
